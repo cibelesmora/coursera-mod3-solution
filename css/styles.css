@@ -32,10 +32,12 @@
   margin: 0px;
   background: #E7E7E7
 }
+
 #nav-list a {
   color: black;
-  text-align: center;
+  border: 1px solid #fff;
 }
+
 #nav-list a:hover {
   background: #C5C5C5;
 }
@@ -51,15 +53,15 @@
 
 /* TITLE*/
 h1{
-  text-align: center;
+  font-weight: bold;
 }
 
 /* MAIN TEXT */
 .cell {
   background-color: #E3F7CE;
-  padding: 15px;
+  padding: 20px;
   height: 1000px;
-  text-overflow: hidden;
+  overflow: hidden;
 }
 
 /********** Large devices only **********/
